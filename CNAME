@@ -1,1 +1,5 @@
-www.claytonhickey.org
+$ dig www.claytonhickey.org +nostats +nocomments +nocmd
+    > ;www.claytonhickey.org.                     IN      A
+    > www.claytonhickey.org.              3592    IN      CNAME   claytonHickey.github.io.
+    > YOUR-USERNAME.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
